@@ -1,0 +1,32 @@
+h1 {
+  font-size: 24px;
+}
+
+.add-task-overlay {
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-task-modal {
+  background-color: #d1e7dd;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 100vh;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+.modal-header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.close-btn {
+  cursor: pointer;
+  width: 20px;
+}

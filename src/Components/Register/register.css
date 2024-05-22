@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+body > div{
+    display: grid;
+    place-items: center;
+    width: 100rem;
+}
+
+.ht-container{
+    display: grid;
+    place-items: center;
+    width: 40rem;
+}
+
+.register-form{
+    background: #12192C; 
+    border-radius: 25px;
+    padding: 25px;
+    max-width: 600px;
+    width: 100%;
+}
+
+.register-form Input{ 
+    display: inline-block;
+    width: 15rem; 
+    margin-bottom: 5px;
+    height: 25px;
+    background-color: #515966;
+    border: none;
+    border-radius: 5px;
+}
+
+div{
+    text-align: center;
+}
+
+div > span{
+    display: inline-block;
+    color: #fff;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+span{
+    display: flex;
+    color: rgb(255, 0, 0);
+    flex-direction: column;
+    border-bottom: 5px;
+}
+
+
+.ht-span{
+    display: block;
+    color: #fff;
+}
+
+h1{
+    color: #d8d8d8;
+}
+
+button{
+    margin: 0;
+    font-size: medium;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    background-color: #515966;
+    transition: .5s;
+    margin-bottom: 5px;
+}
+
+button:hover{
+    cursor: pointer;
+    transition: .5s;
+    color: #515966;
+    background-color: #fff;
+}
+
+.imgUser > Input{
+    color: #fff;
+    padding: 10px;
+    background-color: #12192C;
+}

@@ -1,0 +1,16 @@
+.cont {
+    display: flex;
+    max-width: 1000px;
+}
+
+.scroll-table {
+    max-height: 400px;
+    overflow-y: auto;
+    padding: 10px;
+}
+
+.scroll-table table {
+    width: 100%;
+    max-width: 2000px;
+    table-layout: fixed;
+}

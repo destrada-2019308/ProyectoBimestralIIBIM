@@ -1,0 +1,15 @@
+.auth-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+/* Este css es para Estrada ya que use Styled Components para hacer login diferente del register*/
+.ht-container{
+    display: flex;
+    text-align: center;
+    margin: 0;
+    color: var(--first-color);
+}
